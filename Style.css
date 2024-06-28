@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+.AJ{
+    text-align: center;
+}
+header nav{
+    width: 35%;
+
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #2e2e2e;
+    transition: 200ms;
+}
+
+.sect1{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-image: url("Img.jpg");
+    background-size: cover;
+    padding: 180px 50px;
+}
+.sect1 h1{
+    font-size: 110px;
+    letter-spacing: 50px;
+}
+.sect1 button{
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: #101010;
+    border: none;
+    margin: 30px 0;
+    transition: 300ms;
+}
+.sect1 button:hover{
+    transform: scale(1.05);
+    transition: 400ms;
+}
+
+.sect2{
+    background-image: url("img5.jpg");
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-size: cover;
+    padding: 120px 40px;
+}
+.sect2 h2{
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin: 0 0 20px 0;
+}
+.sect2 h3{
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+}
+.sect2 ul{
+    list-style-type: none;
+}
+.sect3{
+    background-image: url("img6.jpg");
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 20px;
+    background-size: cover;
+    padding: 80px 600px 0 80px;
+}
+.sect3 h1 {
+    font-size: 80px;
+    letter-spacing: 5px;
+    padding: 0 0 10px;
+}
+.sect3 h2{
+    font-size: 30px;
+    padding: 50px 0 10px;
+}
+.sect3 button{
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: #101010;
+    border: none;
+    margin: 40px 0;
+    transition: 300ms;
+
+}
+.sect3 button:hover{
+    transform: scale(1.05);
+    transition: 400ms;
+}
